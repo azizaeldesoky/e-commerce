@@ -1,0 +1,122 @@
+:root {
+  --main-color: #0090f0;
+  --p-color: #7b7b7b;
+  --bg-color: #f3f3f3;
+  --color-heading: #253237;
+  --border-color: #d6d6d6d5;
+  --white-color: #fff;
+}
+
+.item-details {
+  padding: 50px 0;
+}
+.item-details .container {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+.item-details .imgs-item {
+  width: 40%;
+}
+.item-details .imgs-item .big-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.item-details .imgs-item .big-img img {
+  width: auto;
+  max-height: 450px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.item-details .imgs-item .sm-img {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.item-details .imgs-item .sm-img img {
+  width: 24%;
+}
+
+.item-details .details-item {
+  width: 58%;
+}
+.item-details .details-item .name {
+  margin-bottom: 30px;
+  color: var(--main-color);
+}
+.item-details .details-item .stars {
+  margin: 15px 0;
+  display: flex;
+  gap: 5px;
+}
+.item-details .details-item .stars svg {
+  fill: #f8d941;
+  font-size: 20px;
+}
+.item-details .details-item .price {
+  font-size: 22px;
+  margin: 20px 0;
+}
+.item-details .details-item h5 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.item-details .details-item .desc {
+  line-height: 1.5;
+}
+.item-details .details-item .stock {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.item-details .details-item .btn {
+  border: 1px solid var(--main-color);
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+.item-details .details-item .btn.in-cart {
+  background-color: transparent;
+  color: var(--main-color);
+  pointer-events: none;
+}
+.item-details .details-item .icons {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  transition: 0.3s;
+}
+.item-details .details-item .icons span:hover {
+  background-color: var(--main-color);
+}
+.item-details .details-item .icons span:hover svg {
+  fill: var(--white-color);
+}
+.item-details .details-item .icons span {
+  width: 40px;
+  height: 40px;
+  background-color: var(--bg-color);
+  display: flex;
+  color: var(--main-color);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}

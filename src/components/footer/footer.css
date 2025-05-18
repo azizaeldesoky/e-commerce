@@ -1,0 +1,11 @@
+.footer {
+  background-color: var(--main-color);
+  height: 70px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyright {
+  color: white;
+}
